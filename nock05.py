@@ -4,4 +4,6 @@ def n_gram(target,n):
 target = "I am an NLPer"
 print(n_gram(target,3))
 
+print(n_gram(target.split(),2))
+
 
